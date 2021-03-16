@@ -69,7 +69,7 @@ main{
 }
 
 section{
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 
 .task{
@@ -78,20 +78,25 @@ section{
     margin-bottom: 10px;
 }
 
-section>span{
-    
-}
-
 .task::before{
     content: "\0025BE";
 }
 
 .check::before{
-    content: "\2714 ";
+    content: "\2714";
     color: green;
     border-radius: 50%;
     padding: 1px 2px;
     border: 1px solid green;
+    font-size: 10px;
+}
+
+.ballot-x::before{
+    content: "\2718";
+    color: red;
+    border-radius: 50%;
+    padding: 1px 2px;
+    border: 1px solid red;
     font-size: 10px;
 }
 
@@ -105,5 +110,21 @@ section>span{
 
 .editorial{
     background-color: deepskyblue;
+}
+
+.task-element{
+    padding: 10px 0;
+}
+
+.q1-goals{
+    background-color: fuchsia;
+}
+
+.recruiting{
+    background-color: rgb(99, 124, 99);
+}
+
+.mobile{
+    background-color: orange;
 }
 /* /Main */
