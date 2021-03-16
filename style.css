@@ -9,7 +9,7 @@ body{
     background-color: lightgrey;
 }
 
-/* CSS Logo e testo */
+/* Logo e testo */
 header{
     height: 80px;
     background-color: white;
@@ -27,9 +27,9 @@ header{
     font-weight: 600;
     vertical-align: middle;
 }
-/* /CSS Logo e testo */
+/* /Logo e testo */
 
-/* CSS Menu */
+/* Menu */
 nav{
     height: 50px;
     background-color: white;
@@ -58,4 +58,52 @@ nav{
     color: grey;    
 }
 
-/* /CSS Menu */
+/* /Menu */
+
+/* Main */
+main{
+    height: 600px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    margin: 0 100px 50px 100px;
+}
+
+section{
+    padding: 40px;
+}
+
+.task{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+section>span{
+    
+}
+
+.task::before{
+    content: "\0025BE";
+}
+
+.check::before{
+    content: "\2714 ";
+    color: green;
+    border-radius: 50%;
+    padding: 1px 2px;
+    border: 1px solid green;
+    font-size: 10px;
+}
+
+.category{
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.editorial{
+    background-color: deepskyblue;
+}
+/* /Main */
